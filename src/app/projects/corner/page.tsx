@@ -39,7 +39,7 @@ export default function CornerProjectPage() {
             <div className="mb-6">
                 <h2 className="text-xl font-semibold mb-2">Future AI Roadmap</h2>
                 <p className="text-gray-700 dark:text-gray-300 mb-2">
-                    Currently in early stages of AI integration, Corner's vision includes:
+                    Currently in early stages of AI integration, Corner&apos;s vision includes:
                 </p>
                 <ul className="list-disc list-inside text-gray-600 dark:text-gray-300">
                     <li>AI-powered learning assistant for personalized support</li>

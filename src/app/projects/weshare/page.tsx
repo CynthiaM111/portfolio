@@ -49,7 +49,7 @@ export default function WeShareProjectPage() {
             <div className="mb-6">
                 <h2 className="text-xl font-semibold mb-2">Status</h2>
                 <p className="text-gray-700 dark:text-gray-300">
-                    Currently under development, building a robust system with real-time updates and user-friendly interface to serve Rwanda's transportation needs.
+                    Currently under development, building a robust system with real-time updates and user-friendly interface to serve Rwanda&apos;s transportation needs.
                 </p>
             </div>
 
