@@ -5,7 +5,7 @@ export default function Contact() {
             
             <div className="bg-white rounded-lg shadow-sm p-8 border">
                 <p className="text-lg text-gray-700 mb-6">
-                    I'm always open to new opportunities and collaborations. Feel free to reach out through any of the following channels:
+                    I&apos;m always open to new opportunities and collaborations. Feel free to reach out through any of the following channels:
                 </p>
 
                 <div className="space-y-6">

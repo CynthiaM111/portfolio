@@ -26,7 +26,7 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        Hey, I'm <span className="text-blue-400">Cynthia!</span>
+        Hey, I&apos;m <span className="text-blue-400">Cynthia!</span>
       </motion.h1>
 
       <motion.p
@@ -35,7 +35,7 @@ export default function Home() {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.4, duration: 0.5 }}
       >
-        I'm a full-stack developer passionate about mobile and web development. I build accessible, performance-first products with purpose.
+        I&apos;m a full-stack developer passionate about mobile and web development. I build accessible, performance-first products with purpose.
       </motion.p>
 
       {/* Vision & Belief Section */}
@@ -48,11 +48,11 @@ export default function Home() {
         <h2 className="text-3xl font-semibold mb-2">🌍 Vision & Belief</h2>
 
         <p className="text-gray-700 dark:text-gray-300 text-base leading-relaxed">
-          I believe that technology is most impactful when it’s accessible, thoughtful, and rooted in real-world needs.
+          I believe that technology is most impactful when it's accessible, thoughtful, and rooted in real-world needs.
         </p>
 
         <p className="text-gray-700 dark:text-gray-300 text-base leading-relaxed">
-          Whether it’s helping a student stay on top of coursework or making public transportation more efficient, I strive to build tools that actually improve lives.
+          Whether it's helping a student stay on top of coursework or making public transportation more efficient, I strive to build tools that actually improve lives.
         </p>
 
         <p className="text-gray-700 dark:text-gray-300 text-base leading-relaxed">
