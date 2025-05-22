@@ -20,7 +20,7 @@ export default function AboutPage() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.3, duration: 0.6 }}
             >
-                <h2 className="text-2xl font-semibold text-blue-400">Where I'm From</h2>
+                <h2 className="text-2xl font-semibold text-blue-400">Background</h2>
                 <p>
                     I&apos;m originally from Gakenke, Rwanda, moved to the United States for college.
                 </p>

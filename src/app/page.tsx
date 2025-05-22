@@ -48,11 +48,11 @@ export default function Home() {
         <h2 className="text-3xl font-semibold mb-2">🌍 Vision & Belief</h2>
 
         <p className="text-gray-700 dark:text-gray-300 text-base leading-relaxed">
-          I believe that technology is most impactful when it's accessible, thoughtful, and rooted in real-world needs.
+          I believe that technology is most impactful when it&apos;s accessible, thoughtful, and rooted in real-world needs.
         </p>
 
         <p className="text-gray-700 dark:text-gray-300 text-base leading-relaxed">
-          Whether it's helping a student stay on top of coursework or making public transportation more efficient, I strive to build tools that actually improve lives.
+          Whether it&apos;s helping a student stay on top of coursework or making public transportation more efficient, I strive to build tools that actually improve lives.
         </p>
 
         <p className="text-gray-700 dark:text-gray-300 text-base leading-relaxed">
