@@ -9,8 +9,15 @@ export default function Navbar() {
     return (
         <header className="w-full bg-white dark:bg-gray-950 shadow-md sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-                <Link href="/" className="text-2xl font-bold text-blue-600 dark:text-blue-400">
-                    Cynthia Mujyambere
+                <Link href="/" className="flex items-center h-30">
+                    <img
+                        src="/logo.png"
+                        alt="Cynthia M. Logo"
+                        width={300}
+                        height={150}
+                        className="object-contain h-30 w-auto"
+                        
+                    />
                 </Link>
 
                 {/* Desktop menu */}
@@ -36,7 +43,7 @@ export default function Navbar() {
                     <Link href="/" onClick={() => setIsOpen(false)} className="hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md transition-colors">Home</Link>
                     <Link href="/projects" onClick={() => setIsOpen(false)} className="hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md transition-colors">Projects</Link>
                     <Link href="/about" onClick={() => setIsOpen(false)} className="hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md transition-colors">About</Link>
-                    
+
                     <Link href="/contact" onClick={() => setIsOpen(false)} className="hover:bg-blue-400 hover:text-white px-3 py-2 rounded-md transition-colors">Contact</Link>
                 </nav>
             )}
