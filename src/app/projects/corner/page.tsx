@@ -5,7 +5,7 @@ export default function CornerProjectPage() {
     return (
         <div className="max-w-3xl mx-auto px-6 py-12">
             <h1 className="text-4xl font-bold mb-4">Corner – LMS Web App</h1>
-            
+
             <div className="mb-6">
                 <h2 className="text-xl font-semibold mb-2">Overview</h2>
                 <p className="text-gray-700 dark:text-gray-300">
@@ -66,11 +66,22 @@ export default function CornerProjectPage() {
                 >
                     View Backend Code →
                 </a>
-                <a 
-                    href="https://corner-lms-frontend.onrender.com" 
+                <a
+                    href="https://corner-lms-frontend.onrender.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-blue-600 dark:text-blue-400 underline"
                 >
-                    Live Demo →
+                    Deployment →
+                </a>
+
+                <a
+                    href="https://drive.google.com/file/d/1KapPWnN8dL7PosxJyAhlvxOKbVN1T_TB/view?usp=sharing"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 dark:text-blue-400 underline"
+                >
+                    Demo Video →
                 </a>
             </div>
 
@@ -79,12 +90,12 @@ export default function CornerProjectPage() {
                 <div className="space-y-4">
                     <div>
                         <p className="font-medium">👨‍🎓 Student Account</p>
-                        <p className="text-gray-600 dark:text-gray-300">Email: negisi@gmail.com</p>
+                        <p className="text-gray-600 dark:text-gray-300">Email: cynthiamujyambere111@gmail.com</p>
                         <p className="text-gray-600 dark:text-gray-300">Password: 123456</p>
                     </div>
                     <div>
                         <p className="font-medium">👩‍🏫 Teacher Account</p>
-                        <p className="text-gray-600 dark:text-gray-300">Email: nema@gmail.com</p>
+                        <p className="text-gray-600 dark:text-gray-300">Email: mbutocy@gmail.com</p>
                         <p className="text-gray-600 dark:text-gray-300">Password: 123456</p>
                     </div>
                 </div>
